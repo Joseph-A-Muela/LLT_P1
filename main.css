@@ -1,0 +1,125 @@
+body {
+	font-family: Open Sans;
+	text-decoration: none;
+}
+
+nav {
+	margin: .5em;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+nav  a {
+	text-decoration: none;
+	margin-left: 1em;
+	padding: 0;
+}
+
+.navBrand {
+	line-height: 2.1em;
+}
+
+.homeLink1 {
+	color: #ED5200;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.homeLink2 {
+	color: #B4B4B4;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.navLinks {
+	float: right;
+	text-decoration: none;
+}
+
+.navLinks a {
+	color: black;
+	text-decoration: none;
+	margin: 0 3em 0 1em;
+}
+
+.navLinks button {
+	text-decoration: none;
+	background-color: #ED5200;
+	border: none;
+	border-radius: .2em;
+	padding: .4em;
+	outline: none;
+	color: white;
+	margin-bottom: .5em;
+}
+
+.navLinks button:hover {
+	text-decoration: none;
+	background-color: #646464;
+	color: black;
+}
+/*///////////////////*/
+.banner {
+	background-image: url('./images/sunnyMountains.jpg');
+	background-position: 0 42%;
+	background-repeat: no-repeat;
+	height: 25em;
+	width: 100%;
+	margin-bottom: 3em;
+}
+
+.banner h1 {
+	color: white;
+	padding: 3em 0 1em 16em;
+	text-shadow: 1px 1px 2px black;
+}
+
+.banner h4 {
+	padding: 0 0 0 20.8em;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+}
+/*//////////////////*/
+.features {
+	color: gray;
+	margin-bottom: 10em;
+
+}
+
+.well {
+	color: #B4B4B4;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  height: 1px;
+  margin: 1em;
+}
+/*//////////////////*/
+.pics {
+	margin: 0 1.8em;
+	color: #B4B4B4;
+}
+
+/*.img-responsive {
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1.4em;
+	margin-bottom: 1em;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
