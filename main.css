@@ -1,12 +1,10 @@
 body {
 	font-family: Open Sans;
-	text-decoration: none;
 }
 
 nav {
 	margin: .5em;
 	font-size: 1.2em;
-	text-decoration: none;
 }
 
 nav  a {
@@ -20,13 +18,13 @@ nav  a {
 }
 
 .homeLink1 {
-	color: #ED5200;
+	color: #39404B;
 	font-size: 1.2em;
 	text-decoration: none;
 }
 
 .homeLink2 {
-	color: #B4B4B4;
+	color: #C5C5C5;
 	font-size: 1.2em;
 	text-decoration: none;
 }
@@ -42,20 +40,30 @@ nav  a {
 	margin: 0 3em 0 1em;
 }
 
+.navHome {
+	display: none;
+}
+
+.navAbout {
+	display: none;
+}
+
 .navLinks button {
 	text-decoration: none;
-	background-color: #ED5200;
+	background-color: #39404B;
 	border: none;
 	border-radius: .2em;
 	padding: .4em;
 	outline: none;
 	color: white;
 	margin-bottom: .5em;
+	margin-right: 1.5em;
+
 }
 
 .navLinks button:hover {
 	text-decoration: none;
-	background-color: #646464;
+	background-color: #C5C5C5;
 	color: black;
 }
 /*///////////////////*/
@@ -63,57 +71,156 @@ nav  a {
 	background-image: url('./images/sunnyMountains.jpg');
 	background-position: 0 42%;
 	background-repeat: no-repeat;
-	height: 25em;
+	padding: 8.2em 0 8.2em 0;
 	width: 100%;
-	margin-bottom: 3em;
+	margin-bottom: 2em;
+	text-align: center;
 }
 
 .banner h1 {
 	color: white;
-	padding: 3em 0 1em 16em;
 	text-shadow: 1px 1px 2px black;
+	margin-bottom: 1em;
 }
 
 .banner h4 {
-	padding: 0 0 0 20.8em;
 	color: white;
 	text-shadow: 1px 1px 2px black;
 }
 /*//////////////////*/
-.features {
-	color: gray;
-	margin-bottom: 10em;
-
+.signUP {
+	margin: 1em 0 0 1em;
+	padding-bottom: 10em;
+	color: #D0D0D0;
 }
 
-.well {
-	color: #B4B4B4;
+.signUpHeader {
+	color: #93979A;
 }
 
+.signUpBtn {
+	background-color: #39404B;
+	color: white;
+	border: none;
+	border-radius: .2em;
+	width: 12em;
+	margin: 1em auto 2em auto;
+	height: 2.5em;
+	outline: none;
+}
+
+.signUpBtn:hover {
+	text-decoration: none;
+	background-color: #C5C5C5;
+	color: black;
+}
+/*/////////////////*/
 hr {
   border: 0;
   clear:both;
   display:block;
-  width: 96%;
+  width: 90%;
   height: 1px;
-  margin: 1em;
+  margin: 1em auto;
+  padding: 1em;
 }
 /*//////////////////*/
-.pics {
-	margin: 0 1.8em;
+.features {
+	color: gray;
+	padding: .6em 0 3em 0;
+}
+.well {
 	color: #B4B4B4;
 }
-
-/*.img-responsive {
-	margin-left: 1em;
-	margin-right: 1em;
-	margin-top: 1.4em;
-	margin-bottom: 1em;
+/*/////////////////*/
+.pics {
+	margin: 0 1.8em;
+	padding-bottom: 19em;
+	color: #B4B4B4;
 }
-*/
+/*/////////////////*/
+.conclusion {
+	color: #D0D0D0;
+	padding: .3em 0 2.5em 0;
+	margin-bottom: .4em;
+}
 
+.conclusionInfo {
+	padding-bottom: 1.6em;
+}
 
+.conclusionHeader{
+	font-size: 1.2em;
+	font-weight: bolder;
+	color: #93979A;
+}
 
+.conclusionText {
+	font-size: .7em;
+	line-height: 1.5em;
+}
+
+footer {
+	color: #D0D0D0;
+	background-color: #39404B;
+	padding: 1.1875em;
+}
+
+.header {
+	margin-right: 8em;
+}
+
+.footerHeader {
+	font-size: 1em;
+	color: #9198A2;
+	padding-top: .5em;
+	font-weight: bolder;
+}
+
+.footerText {
+	font-size: .7em;
+	line-height: 1.5em;
+	color: #676E78;
+	font-weight: bolder;
+}
+
+.aboutUs {
+ 	text-decoration: underline;
+ 	text-align: center;
+}
+
+.contactUs {
+ 	text-align: center;
+}
+/*///////////////////*/
+@media screen and (min-width: 768px) {
+
+	.navHome {
+		display: inline-block;
+	}
+
+	.navAbout {
+		display: inline-block;
+	}
+
+	.navLinks a {
+		margin: 0 3em 0 0;
+	}
+
+}
+/*/////////////////*/
+@media screen and (min-width: 992px) {
+
+	.navLinks a {
+		margin: 0 5em 0 0;
+	}
+
+	.signUpBtn {
+		float: right;
+		margin: 0 5.5em;
+	}
+
+}
 
 
 
